@@ -1,0 +1,20 @@
+{
+  "name": "email-scheduling-api",
+  "version": "1.0.0",
+  "description": "API scheduling Emails along with CRUD operations",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Abhijeet Banerjee",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6"
+  }
+}
